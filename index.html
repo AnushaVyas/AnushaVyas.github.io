@@ -3,31 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anusha Vyas | AI &amp; ML Engineering, Data Science &amp; Analytics</title>
+<title>Anusha Vyas | AI &amp; ML Engineering</title>
 <link rel="icon" href="/favicon.ico?v=3" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=3">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=3">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=3">
 <link rel="manifest" href="/site.webmanifest?v=3">
 <meta name="apple-mobile-web-app-title" content="Anusha Vyas">
+<link rel="canonical" href="https://anushavyas.github.io/">
 <meta name="theme-color" content="#07080d">
 <meta name="description" content="AI &amp; ML Engineering, Data Science &amp; Analytics. MS Computer Science, UT Arlington. I teach machines to see: deepfake detection, semantic search, real-time gesture recognition.">
-<link rel="canonical" href="https://anushavyas.github.io/">
+
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Anusha Vyas">
-<meta property="og:url" content="https://anushavyas.github.io/">
-<meta property="og:title" content="Anusha Vyas | AI &amp; ML Engineering, Data Science &amp; Analytics">
+
+<meta property="og:title" content="Anusha Vyas | AI &amp; ML Engineering">
 <meta property="og:description" content="I teach machines to see. Deepfake detection, semantic search, real-time gesture recognition. Models that ship, not just notebooks that run.">
 <meta property="og:image" content="https://anushavyas.github.io/preview.jpg">
 <meta property="og:image:secure_url" content="https://anushavyas.github.io/preview.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Anusha Vyas, AI and ML Engineering, Data Science and Analytics">
+<meta property="og:image:alt" content="Anusha Vyas, AI and ML Engineering">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anusha Vyas | AI &amp; ML Engineering, Data Science &amp; Analytics">
+<meta name="twitter:title" content="Anusha Vyas | AI &amp; ML Engineering">
 <meta name="twitter:description" content="I teach machines to see. Deepfake detection, semantic search, real-time gesture recognition.">
 <meta name="twitter:image" content="https://anushavyas.github.io/preview.jpg">
 
@@ -96,13 +97,15 @@
   }
   .frame::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
   .frame::after { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+  .photo-ph { display:flex; align-items:center; justify-content:center; background:#12151c; color:#5d6470; font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:#5d6470; }
   .photo { width: 222px; height: 278px; object-fit: cover; object-position: center top; display: block; filter: saturate(0.92) contrast(1.04); }
 
   .strip { max-width: 950px; margin: 0 auto; padding: 0 2rem 3.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-top: 2.5rem; }
   .cell { padding: 1.1rem 1.25rem; border-right: 1px solid var(--line); }
   .cell:last-child { border-right: 0; }
   .cell .n { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.14em; color: var(--gold); opacity: 0.8; display: block; margin-bottom: 6px; }
-  .cell .v { font-size: 16px; color: var(--ink); line-height: 1.35; }
+  .cell .v { font-size: 16px; color: var(--ink); line-height: 1.35; display: block; }
+  .cell .desc { display: block; margin-top: 9px; font-size: 12px; line-height: 1.55; color: var(--muted); }
 
   section { max-width: 950px; margin: 0 auto; padding: 4rem 2rem; }
   .sec-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 2.6rem; border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
@@ -141,6 +144,14 @@
   .course { padding: 0.95rem 1.15rem; font-size: 15.5px; color: var(--muted); border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); transition: color .18s, background .18s; }
   .course:hover { color: var(--gold); background: rgba(201,169,97,0.04); }
 
+  .education-list { display: grid; gap: 0; border-top: 1px solid var(--line); }
+  .education-item { display: grid; grid-template-columns: 54px 1fr; gap: 1rem; padding: 1.45rem 0; border-bottom: 1px solid var(--line); align-items: start; }
+  .edu-logo { width: 48px; height: 48px; border-radius: 7px; display: flex; align-items: center; justify-content: center; background: var(--card); border: 1px solid var(--line); color: var(--gold); font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: -0.04em; }
+  .edu-school { font-size: 18px; color: var(--ink); line-height: 1.35; margin-bottom: 4px; }
+  .edu-degree { font-size: 15px; color: var(--muted); margin-bottom: 5px; }
+  .edu-date { font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; color: var(--muted); }
+  .edu-skills { margin-top: 12px; color: var(--gold); font-size: 12px; }
+  .edu-skills span { color: var(--muted); }
   .camp { border: 1px solid var(--line); background: var(--card); backdrop-filter: blur(6px); padding: 1.7rem; transition: border-color .22s, transform .22s; }
   .camp:hover { border-color: var(--line-hot); transform: translateY(-2px); }
   .camp .role { font-size: 19px; margin-bottom: 7px; }
@@ -167,10 +178,45 @@
     section, .hero, .strip { padding-left: 1.2rem; padding-right: 1.2rem; }
     .cell { border-right: 0; border-bottom: 1px solid var(--line); }
   }
+
+  /* Interactive polish */
+  .scroll-progress { position: fixed; inset: 0 auto auto 0; height: 2px; width: 0; z-index: 100; background: linear-gradient(90deg, var(--gold), var(--violet)); box-shadow: 0 0 12px rgba(201,169,97,.45); }
+  .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+  .cell, .proj, .card, .cert, .camp, .education-item, .course { transition: border-color .25s, background .25s, transform .25s, color .25s, box-shadow .25s; }
+  .cell:hover { background: rgba(201,169,97,.035); }
+  .proj:hover, .cert:hover, .camp:hover { box-shadow: 0 14px 36px rgba(0,0,0,.2); }
+  .education-item:hover { padding-left: 10px; background: linear-gradient(90deg, rgba(201,169,97,.035), transparent); }
+  .nav-links a.active { color: var(--gold); background: rgba(201,169,97,.08); }
+  .hero h1 .ln { text-shadow: 0 0 34px rgba(201,169,97,.08); }
+
+  /* Subtle pointer hover glow: keeps the system cursor and adds a restrained galactic light. */
+  .pointer-glow { position: fixed; left: 0; top: 0; width: 300px; height: 300px; border-radius: 50%; pointer-events: none; z-index: 1; opacity: 0; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(139,140,240,.075) 0%, rgba(201,169,97,.035) 32%, transparent 70%); transition: opacity .22s ease; will-change: left, top; }
+  @media (hover: hover) and (pointer: fine) { body.pointer-glow-active .pointer-glow { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .pointer-glow { display: none !important; } }
+
+  /* Rare, restrained meteors: travel diagonally down-left, with the tail trailing upper-right. */
+  .meteor { position: fixed; z-index: 1; top: -12vh; right: -18vw; width: 150px; height: 1px; pointer-events: none; opacity: 0; transform: rotate(135deg); transform-origin: right center; background: linear-gradient(90deg, transparent, rgba(201,169,97,.12) 35%, rgba(220,226,255,.85) 100%); box-shadow: 0 0 5px rgba(180,190,255,.2); animation: meteor-cross 15s linear infinite; }
+  .meteor::after { content: ''; position: absolute; right: 0; top: -1px; width: 3px; height: 3px; border-radius: 50%; background: #fff8dc; box-shadow: 0 0 7px 2px rgba(225,226,255,.55); }
+  .meteor.meteor-two { top: -22vh; right: -30vw; width: 105px; animation-delay: 7.5s; animation-duration: 18s; opacity: 0; }
+  @keyframes meteor-cross { 0%, 72% { opacity: 0; transform: translate(0,0) rotate(135deg); } 74% { opacity: .72; } 83% { opacity: 0; transform: translate(-115vw, 105vh) rotate(135deg); } 100% { opacity: 0; transform: translate(-115vw, 105vh) rotate(135deg); } }
+  @media (prefers-reduced-motion: reduce) { .meteor { display: none; } }
+  .hero .sub { min-height: 3.2em; }
+  .hero .sub::after { content: ''; display: inline-block; width: 1px; height: .95em; margin-left: 4px; vertical-align: -.1em; background: var(--gold); animation: caret-blink 1s steps(2,start) infinite; }
+  @keyframes caret-blink { to { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    .reveal { opacity: 1; transform: none; }
+  }
+
 </style>
 </head>
 <body>
+<div class="scroll-progress" aria-hidden="true"></div>
+<div class="pointer-glow" aria-hidden="true"></div>
 <canvas id="net"></canvas>
+<div class="meteor" aria-hidden="true"></div>
+<div class="meteor meteor-two" aria-hidden="true"></div>
 <div class="aura aura-1"></div>
 <div class="aura aura-2"></div>
 <div class="wrap">
@@ -183,6 +229,7 @@
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#certifications">Certifications</a>
+      <a href="#education">Education</a>
       <a href="#coursework">Coursework</a>
       <a href="#campus">Campus</a>
     </div>
@@ -204,7 +251,7 @@
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
         GitHub
       </a>
-      <a href="mailto:vyasanusha45@gmail.com" class="btn">
+      <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vyasanusha45%40gmail.com" target="_blank" rel="noopener" class="btn">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
         Email
       </a>
@@ -216,36 +263,52 @@
 </div>
 
 <div class="strip">
-  <div class="cell"><span class="n">01</span><span class="v">AI &amp; ML Engineering</span></div>
-  <div class="cell"><span class="n">02</span><span class="v">Data Science &amp; Analytics</span></div>
-  <div class="cell"><span class="n">03</span><span class="v">4&times; AWS Certified</span></div>
-  <div class="cell"><span class="n">04</span><span class="v">Python &middot; SQL</span></div>
-  <div class="cell"><span class="n">05</span><span class="v">LLM &amp; Model Evaluation</span></div>
-  <div class="cell"><span class="n">06</span><span class="v">UTA, May 2026, MS CS</span></div>
+  <div class="cell"><span class="n">01</span><span class="v">AI &amp; ML Engineering</span><span class="desc">Production RAG and LLM systems serving 8,000+ users across 4M internal documents.</span></div>
+  <div class="cell"><span class="n">02</span><span class="v">Data Science &amp; Analytics</span><span class="desc">Built Spark ETL and forecasting pipelines for high-volume telemetry and predictive maintenance.</span></div>
+  <div class="cell"><span class="n">03</span><span class="v">4&times; AWS Certified</span><span class="desc">Credentials spanning cloud foundations, microservices and CI/CD, data pipelines, and security.</span></div>
+  <div class="cell"><span class="n">04</span><span class="v">Python &middot; SQL</span><span class="desc">Core tools for data engineering, feature preparation, analytics, and model development.</span></div>
+  <div class="cell"><span class="n">05</span><span class="v">LLM &amp; Model Evaluation</span><span class="desc">Benchmarked six open-source LLMs on latency, context fidelity, and task quality.</span></div>
+  <div class="cell"><span class="n">06</span><span class="v">MS Computer Science</span><span class="desc">The University of Texas at Arlington · May 2026.</span></div>
 </div>
 
 <section id="experience">
   <div class="sec-head"><span class="sec-num">01</span><h2>Experience</h2></div>
   <div class="card">
     <div class="card-head">
-      <div><p class="role">Machine Learning Intern</p><p class="co">Infolabz IT Services &middot; Gujarat, India</p></div>
-      <span class="when">Jan 2024 &ndash; Jul 2024</span>
+      <div><p class="role">AI/ML Engineer</p><p class="co">General Motors &middot; Hendersonville, TN</p></div>
+      <span class="when">Sep 2026 &ndash; Present</span>
     </div>
     <ul class="b">
-      <li>Trained and tuned supervised models in Python (Scikit-learn) for behavioral segmentation and purchase prediction on large B2C datasets, using feature engineering, cross-validation, and hyperparameter search to reach 93% accuracy on held-out data.</li>
-      <li>Engineered end-to-end Apache Spark training pipelines covering ingestion, preprocessing, and feature transformation across 100K+ records, cutting data-prep time by 40% and shortening the iteration loop for the marketing and product teams.</li>
-      <li>Unified MySQL and MongoDB sources into reproducible feature pipelines and translated model output into recommendations cross-functional stakeholders used to reset audience targeting and segmentation.</li>
+      <li>Architected an enterprise Retrieval-Augmented Generation system using LangChain, FAISS, and GPT-4o with semantic vector search across 4M internal documents, cutting engineer query resolution time from 4 hours to 12 minutes for 8,000+ users.</li>
+      <li>Fine-tuned domain-specific LLMs on 2.3M automotive maintenance records using LoRA adapters and PEFT on AWS SageMaker, scaling adoption across 6 product lines and reducing manual diagnostics effort by 1,400 hours per month.</li>
+      <li>Deployed production multi-agent orchestration with LangGraph and CrewAI using function calling and tool use to automate vehicle diagnostics reporting, compressing report generation from 48 hours to 3 hours across North American operations.</li>
+      <li>Established end-to-end MLOps infrastructure with MLflow, Docker, and Kubernetes, delivering CI/CD pipelines with canary deployments, A/B testing, and model monitoring that shortened release cycles from 3 weeks to 4 days.</li>
     </ul>
   </div>
   <div class="card">
     <div class="card-head">
-      <div><p class="role">Data Analytics Intern</p><p class="co">STRATS 360 &middot; Gujarat, India</p></div>
-      <span class="when">May 2023 &ndash; Dec 2023</span>
+      <div><p class="role">ML Engineer</p><p class="co">Persistent Systems &middot; India</p></div>
+      <span class="when">Aug 2023 &ndash; Jul 2024</span>
     </div>
     <ul class="b">
-      <li>Built and maintained structured JSON data pipelines feeding real-time querying and reporting for a production application serving 1,000+ active users, sustaining ~180 ms observed query response times under live traffic.</li>
-      <li>Modeled and queried production data across MySQL and API endpoints to surface usage and transaction records to reporting views, working to short agile delivery cycles alongside senior engineers.</li>
-      <li>Implemented validation and integrity checks across data endpoints, catching defects before release and keeping downstream reporting accurate under continuous production load.</li>
+      <li>Developed a computer vision defect detection pipeline with PyTorch and YOLOv8 for manufacturing quality control, scaling inspection throughput to 3,200 units daily across 4 global factories.</li>
+      <li>Constructed production NLP models (BERT, RoBERTa, Hugging Face Transformers) for named entity recognition and contract classification, processing 18,000 legal documents monthly and compressing analyst review from 6 days to 9 hours.</li>
+      <li>Automated model retraining pipelines using Apache Airflow and MLflow on Azure Machine Learning with drift detection and monitoring alerts, cutting time from drift detection to redeployment from 11 days to 18 hours.</li>
+      <li>Benchmarked 6 open-source LLMs (LLaMA 2, Mistral, Phi-2) across latency, context fidelity, and evaluation criteria, producing a technical scorecard that became the team's standard LLM qualification process.</li>
+      <li>Built a time series forecasting pipeline using LSTM networks and Temporal Fusion Transformer on Azure ML to predict equipment failure 72 hours in advance, eliminating 420 hours of unplanned downtime annually.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div><p class="role">Data Engineer</p><p class="co">Dell Technologies &middot; India</p></div>
+      <span class="when">Jun 2022 &ndash; Jul 2023</span>
+    </div>
+    <ul class="b">
+      <li>Designed a fault-tolerant Apache Spark ETL pipeline ingesting 4.8TB of daily device telemetry from 200,000 enterprise storage units into Snowflake, enabling downstream predictive maintenance models across 30 countries.</li>
+      <li>Built automated data quality validation with Great Expectations and dbt, intercepting 98 schema violations monthly before propagation to the ML feature store and protecting 12 downstream production models.</li>
+      <li>Implemented a feature engineering framework with PySpark and Apache Hive serving 40 pre-computed ML features at 25ms latency for real-time anomaly detection.</li>
+      <li>Orchestrated Apache Kafka streaming pipelines processing real-time telemetry at 120,000 events per second, enabling near-real-time anomaly alerting with sub-5-second end-to-end latency.</li>
+      <li>Optimized Spark job performance through partition pruning, broadcast join tuning, and dynamic resource allocation on YARN, reducing average batch runtime from 3.4 hours to 47 minutes.</li>
     </ul>
   </div>
 </section>
@@ -253,6 +316,22 @@
 <section id="projects">
   <div class="sec-head"><span class="sec-num">02</span><h2>Projects</h2></div>
   <div class="grid">
+    <div class="proj">
+      <div class="proj-top">
+        <p class="proj-name">Autonomous Multi-Agent<br>Research Assistant</p>
+        
+      </div>
+      <p>Production multi-agent agentic system using LangGraph and LlamaIndex with Tavily web search and RAG-powered synthesis across 50,000 indexed documents, enabling autonomous multi-step tool use and function calling. Sub-8-second query latency via parallel workflows, Pinecone vector caching, and streaming inference over FastAPI with SSE, sustaining 99.4% uptime under 200 concurrent users.</p>
+      <div class="tags"><span class="tag">LangGraph</span><span class="tag">LlamaIndex</span><span class="tag">RAG</span><span class="tag">Pinecone</span><span class="tag">FastAPI</span></div>
+    </div>
+    <div class="proj">
+      <div class="proj-top">
+        <p class="proj-name">Real-Time Financial News<br>Sentiment Pipeline</p>
+        
+      </div>
+      <p>End-to-end streaming NLP pipeline using Apache Kafka and FinBERT classifying financial news sentiment at 2,000 articles per minute across 14 live sources, surfaced on a Streamlit dashboard with sub-2-second publication-to-score latency. A batch inference layer with PyTorch and Redis caching labelled 840,000 historical records, lifting downstream F1 from 0.74 to 0.89.</p>
+      <div class="tags"><span class="tag">Kafka</span><span class="tag">FinBERT</span><span class="tag">PyTorch</span><span class="tag">Redis</span><span class="tag">Streamlit</span></div>
+    </div>
     <div class="proj">
       <div class="proj-top">
         <p class="proj-name">DeepFake Detection<br>Vision-KAN + Vision-LSTM</p>
@@ -298,8 +377,32 @@
   </div>
 </section>
 
+<section id="education">
+  <div class="sec-head"><span class="sec-num">04</span><h2>Education</h2></div>
+  <div class="education-list">
+    <div class="education-item">
+      <div class="edu-logo" aria-label="University of Texas at Arlington logo">UTA</div>
+      <div>
+        <p class="edu-school">The University of Texas at Arlington</p>
+        <p class="edu-degree">Master of Science (MS), Computer Science</p>
+        <p class="edu-date">Aug 2024 &ndash; May 2026</p>
+        <p class="edu-skills">◇ <span>Web Development, Engineering and +7 skills</span></p>
+      </div>
+    </div>
+    <div class="education-item">
+      <div class="edu-logo" aria-label="Gujarat Technological University logo">GTU</div>
+      <div>
+        <p class="edu-school">Gujarat Technological University (GTU)</p>
+        <p class="edu-degree">Bachelor of Engineering (BE), Computer Engineering</p>
+        <p class="edu-date">Aug 2020 &ndash; May 2024</p>
+        <p class="edu-skills">◇ <span>Web Development, Engineering and +7 skills</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="coursework">
-  <div class="sec-head"><span class="sec-num">04</span><h2>Coursework</h2></div>
+  <div class="sec-head"><span class="sec-num">05</span><h2>Coursework</h2></div>
   <div class="courses">
     <div class="course">Data Analysis &amp; Modeling Techniques</div>
     <div class="course">Design &amp; Analysis of Algorithms</div>
@@ -320,7 +423,7 @@
 </section>
 
 <section id="campus">
-  <div class="sec-head"><span class="sec-num">05</span><h2>Campus engagement</h2></div>
+  <div class="sec-head"><span class="sec-num">06</span><h2>Campus engagement</h2></div>
   <div class="grid">
     <div class="camp">
       <p class="role">Graduate Assistant</p>
@@ -357,7 +460,7 @@
 
 <footer>
   <p class="f1">
-    <a href="mailto:vyasanusha45@gmail.com">vyasanusha45@gmail.com</a> &nbsp;&middot;&nbsp;
+    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vyasanusha45%40gmail.com" target="_blank" rel="noopener">vyasanusha45@gmail.com</a> &nbsp;&middot;&nbsp;
     <a href="https://linkedin.com/in/anushavyas" target="_blank" rel="noopener">LinkedIn</a> &nbsp;&middot;&nbsp;
     <a href="https://github.com/AnushaVyas" target="_blank" rel="noopener">GitHub</a>
   </p>
@@ -462,6 +565,93 @@ window.addEventListener('load', function () { if (!window.location.hash) window.
   window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(build, 180); });
   requestAnimationFrame(draw);
 })();
+
+
+
+// Gentle pointer glow only — standard cursor, no rocket or fairy-dust trail.
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var glow = document.querySelector('.pointer-glow');
+  if (!glow) return;
+  var raf = 0, x = -500, y = -500;
+  window.addEventListener('pointermove', function (event) {
+    x = event.clientX; y = event.clientY; document.body.classList.add('pointer-glow-active');
+    if (raf) return;
+    raf = requestAnimationFrame(function () { glow.style.left = x + 'px'; glow.style.top = y + 'px'; raf = 0; });
+  }, { passive: true });
+  document.addEventListener('pointerleave', function () { document.body.classList.remove('pointer-glow-active'); });
+})();
+
+// Scroll progress, section reveals, and navigation state.
+(function () {
+  var progress = document.querySelector('.scroll-progress');
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+  var sections = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function updateScroll() {
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    if (progress) progress.style.width = (max > 0 ? (window.scrollY / max) * 100 : 0) + '%';
+  }
+  window.addEventListener('scroll', updateScroll, { passive: true });
+  window.addEventListener('resize', updateScroll);
+  updateScroll();
+
+  var revealTargets = document.querySelectorAll('section, .hero, .strip, footer');
+  Array.prototype.forEach.call(revealTargets, function (el) { el.classList.add('reveal'); });
+  if (!reduced && 'IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -35px 0px' });
+    Array.prototype.forEach.call(revealTargets, function (el) { observer.observe(el); });
+  } else {
+    Array.prototype.forEach.call(revealTargets, function (el) { el.classList.add('is-visible'); });
+  }
+
+  if ('IntersectionObserver' in window) {
+    var navObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        links.forEach(function (a) {
+          var selected = a.getAttribute('href') === '#' + entry.target.id;
+          a.classList.toggle('active', selected);
+          if (selected) a.setAttribute('aria-current', 'location');
+          else a.removeAttribute('aria-current');
+        });
+      });
+    }, { rootMargin: '-22% 0px -65% 0px', threshold: 0 });
+    sections.forEach(function (section) { navObserver.observe(section); });
+  }
+
+  // Rotate a few concise focus areas in the hero without changing the core bio.
+  var sub = document.querySelector('.bio .sub');
+  if (sub && !reduced) {
+    var phrases = [
+      'Deepfake detection, semantic search, real-time gesture recognition. Models that ship, not just notebooks that run.',
+      'Building reliable AI systems, practical data pipelines, and measurable machine learning solutions.',
+      'From computer vision and NLP to LLM evaluation and production ML infrastructure.'
+    ];
+    var index = 0, timer = null;
+    sub.textContent = phrases[0];
+    function rotatePhrase() {
+      sub.style.opacity = '0';
+      timer = window.setTimeout(function () {
+        index = (index + 1) % phrases.length;
+        sub.textContent = phrases[index];
+        sub.style.opacity = '1';
+      }, 260);
+    }
+    sub.style.transition = 'opacity .25s ease';
+    window.setInterval(rotatePhrase, 5200);
+  }
+})();
+
 </script>
 </body>
 </html>
